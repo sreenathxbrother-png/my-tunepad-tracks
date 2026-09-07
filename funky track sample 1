@@ -1,0 +1,31 @@
+## --- Funky Drum Groove ---
+
+for i in range(4):
+    # Beat 1: Strong Kick
+    playNote(36, 0.5)   # Kick Drum
+    playNote(42, 0.5)   # Closed Hi-hat
+    
+    # Beat 2: Solid Snare with a syncopated Kick
+    playNote(38, 0.5)   # Snare Drum
+    playNote(42, 0.25)  # Closed Hi-hat
+    playNote(36, 0.25)  # Quick Kick right before beat 3
+    
+    # Beat 3: Landing back on the Kick
+    playNote(36, 0.5)   # Kick Drum
+    playNote(42, 0.5)   # Closed Hi-hat
+    
+    # Beat 4: Snare and a quick Hi-hat turnaround
+    playNote(38, 0.5)   # Snare Drum
+    playNote(42, 0.25)  # Closed Hi-hat
+    playNote(42, 0.25)  # Closed Hi-hat New TunePad cell
+
+
+
+# piano chords
+for i in range(4): # 32 beats total
+    playNote([50, 53, 57, 60], 2) # Dm7 
+    playNote([43, 47, 50, 53], 2) # G7 
+    playNote([45, 48, 52, 55], 4) # Am7New TunePad cell
+
+
+
